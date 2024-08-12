@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulinhos do Mario</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="images/icon-cogumelo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="background">
+        <img src="images/earth-mario.png" alt="earth" class="earth">
+    </div>
+    <div class="game-board">
+        <img src="images/mario.gif" class="mario">
+        <img src="images/pipe.png" class="pipe">
+        <img src="images/grass-mario.webp" class="grass"> 
+        <img src="images/clouds.png" class="clouds cloud1">
+        <img src="images/clouds.png" class="clouds cloud2">
+        <img src="images/clouds.png" class="clouds cloud3">
+        <div id="gameOver" class="game-over">
+            <img src="images/over.png" alt="game-over">
+            <div id="finalScore">Score Final: 0</div>
+            <img id="playAgain" src="images/Play-Again.png" alt="Play Again">
+        </div>
+        <div id="score">Score: 0</div>
+
+        <div id="pauseMenu" class="pause-menu">
+            <div class="border-wrapper">
+                <div class="pause-menu-content">
+                    <button id="resumeGame">Continuar Jogando</button>
+                    <button id="newGame">Novo Jogo</button>
+                    <img src="images/mario-mushroom.gif" alt="mario mushroom" class="mario-mushroom">
+                </div>
+                <img src="images/blocks-mario.png" alt="blocks" class="border-image">
+            </div>
+        </div>
+        
+      
+    <script src="JS/script.js"></script>
+</body>
+</html>
+
+
